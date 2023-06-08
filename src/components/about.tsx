@@ -1,6 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
-import PC1 from '../images/pc1.jpeg';
+import PC1 from '../images/pc5.jpg';
 import TextRotator from './textRotate';
 
 const About = () => {
@@ -12,19 +12,19 @@ const About = () => {
 				className='w-full'
 			/>
 			<div className='absolute top-96'>
-				<div className='text-white w-full h-52 p-6 text-5xl font-serif bg-black opacity-40 m-4'>
+				<div className='text-white h-52 p-6 text-5xl font-serif bg-black opacity-40 m-4'>
 					<TextRotator />
 				</div>
 			</div>
-			<div className='bg-blue-300 text-white p-6 text-5xl font-thin'>
+			<div className='bg-blue-300 text-white p-4 text-3xl font-thin'>
 				<p>ABOUT LEONCE IRANYUMVA</p>
 			</div>
-			<div className='mx-12 my-4'>
+			<div className='bg-white p-6 m-8 rounded-lg'>
 				<span className='text-2xl text-amber-800'>
-					| Software engineer | Entrepreneur | Designer
+					| Software Engineer | QA Engineer | Designer
 				</span>
-				<p className='text-2xl font-thin py-4'>
-					<span className='font-semibold text-2xl text-gray-500 mr-2'>
+				<p className='text-lg font-thin py-4'>
+					<span className='font-semibold text-lg text-gray-500 mr-2'>
 						Leonce iranyumva:
 					</span>
 					Is a passionate software engineer with a strong focus on frontend
@@ -37,8 +37,8 @@ const About = () => {
 					keeping up with the latest trends and advancements in frontend
 					development to deliver cutting-edge applications.
 				</p>
-				<p className='text-2xl font-thin py-4'>
-					<span className='font-semibold text-2xl text-gray-500 mr-2'>
+				<p className='text-lg font-thin py-4'>
+					<span className='font-semibold text-lg text-gray-500 mr-2'>
 						Leonce iranyumva:
 					</span>
 					Is also a highly skilled and detail-oriented quality assurance
@@ -49,8 +49,8 @@ const About = () => {
 					collaborating with cross-functional teams to drive continuous
 					improvement.
 				</p>
-				<p className='text-2xl font-thin py-4 text-blue-900'>
-					<span className='font-semibold text-2xl text-gray-500 mr-2'>
+				<p className='text-lg font-thin py-4 text-blue-900'>
+					<span className='font-semibold text-lg text-gray-500 mr-2'>
 						Current focus:
 					</span>
 					Is dedicated to pursuing a UX/UI design.

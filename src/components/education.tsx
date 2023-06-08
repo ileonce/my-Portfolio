@@ -5,11 +5,11 @@ import Parul from '../images/parul.jpg';
 function Education() {
 	return (
 		<div>
-			<div className='bg-blue-300 text-white p-6 text-5xl font-thin'>
+			<div className='bg-blue-300 text-white p-4 text-3xl font-thin'>
 				<p>EDUCATION</p>
 			</div>
-			<div className='grid grid-cols-2 m-10'>
-				<div className='w-5/6 p-6 bg-white'>
+			<div className='grid grid-cols-2 m-8'>
+				<div className='w-5/6 p-6 bg-white rounded-lg'>
 					<div className='flex items-center space-x-3'>
 						<Image
 							src={Parul}
@@ -27,7 +27,7 @@ function Education() {
 						<li>CGPA: 7.44</li>
 					</ul>
 				</div>
-				<div className='w-5/6 p-6 bg-white'>
+				<div className='w-5/6 p-6 bg-white rounded-lg'>
 					<p className='text-2xl pb-4'>Group Scolaire Des Parents</p>
 					<ul className='text-gray-500 mt-2'>
 						<li>Feb 2014 - Nov 2016</li>

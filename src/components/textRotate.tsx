@@ -23,7 +23,7 @@ const TextRotator = () => {
 	useEffect(() => {
 		const intervalId = setInterval(() => {
 			setTextIndex((prevTextIndex) => (prevTextIndex + 1) % texts.length);
-		}, 3000);
+		}, 6000);
 		return () => clearInterval(intervalId);
 	}, []);
 

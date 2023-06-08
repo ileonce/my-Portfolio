@@ -15,11 +15,11 @@ import ADOBE from '../images/adobexd.png';
 const Skills = () => {
 	return (
 		<div>
-			<div className='bg-blue-300 text-white p-6 text-5xl font-thin'>
+			<div className='bg-blue-300 text-white p-4 text-3xl font-thin'>
 				<p>SKILLS</p>
 			</div>
-			<div className='bg-white m-8 p-8 rounded-lg'>
-				<p className='py-4 text-3xl text-orange-900 font-thin'>FRONT-END</p>
+			<div className='bg-white m-8 px-8 py-5 rounded-lg'>
+				<p className='pb-4 text-3xl text-orange-900 font-thin'>FRONT-END</p>
 				<hr />
 				<div className='grid grid-cols-6 mt-6'>
 					<div className='flex flex-col items-center w-32'>
@@ -78,7 +78,7 @@ const Skills = () => {
 					</div>
 				</div>
 			</div>
-			<div className='bg-white m-8 p-8 rounded-lg'>
+			<div className='bg-white m-8 px-8 py-3 rounded-lg'>
 				<p className='py-4 text-3xl text-orange-900 font-thin'>BACK-END</p>
 				<hr />
 				<div className='grid grid-cols-6 mt-6'>
@@ -103,7 +103,7 @@ const Skills = () => {
 					</div>
 				</div>
 			</div>
-			<div className='bg-white m-8 p-8 rounded-lg'>
+			<div className='bg-white m-8 px-8 py-4 rounded-lg'>
 				<p className='py-4 text-3xl text-orange-900 font-thin'>
 					DEVELOPMENT TOOLS
 				</p>
@@ -120,7 +120,7 @@ const Skills = () => {
 					</div>
 				</div>
 			</div>
-			<div className='bg-white m-8 p-8 rounded-lg'>
+			<div className='bg-white m-8 px-8 py-4 rounded-lg'>
 				<p className='py-4 text-3xl text-orange-900 font-thin'>
 					GRAPHIC DESIGN
 				</p>

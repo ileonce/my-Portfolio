@@ -26,15 +26,11 @@ export default function Home() {
 					<Element name='experience'>
 						<Experience />
 					</Element>
-					<Element name='projects'>
-						<Projects />
-					</Element>
+					<Element name='projects'>{/* <Projects /> */}</Element>
 					<Element name='skills'>
 						<Skills />
 					</Element>
-					<Element name='awards'>
-						<Awards />
-					</Element>
+					<Element name='awards'>{/* <Awards /> */}</Element>
 					<Element name='education'>
 						<Education />
 					</Element>

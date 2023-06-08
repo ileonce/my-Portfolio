@@ -31,7 +31,7 @@ const SideBar = () => {
 				<p className='text-sm px-4 py-2 text-gray-500'>Software Engineer</p>
 			</div>
 			<hr />
-			<ul className='text-gray-500'>
+			<ul className='text-gray-500 bg-white h-screen'>
 				<div className='cursor-pointer hover:bg-gray-50 hover:border-blue-500 border-l-4 border-transparent transition duration-300'>
 					<li
 						className='mx-4 flex items-center space-x-2 py-3'
@@ -53,7 +53,7 @@ const SideBar = () => {
 				<div className='cursor-pointer hover:bg-gray-50 hover:border-blue-500  border-l-4 border-transparent transition duration-300'>
 					<li
 						className='mx-4 flex items-center space-x-2 py-3'
-						onClick={() => scrollToComponent('projects')}
+						// onClick={() => scrollToComponent('projects')}
 					>
 						<TableCellsIcon className='w-6 h-6 mr-4 text-blue-500 font-bold' />
 						Projects
@@ -71,7 +71,7 @@ const SideBar = () => {
 				<div className='cursor-pointer hover:bg-gray-50 hover:border-red-500  border-l-4 border-transparent transition duration-300'>
 					<li
 						className='mx-4 flex items-center space-x-2 py-3'
-						onClick={() => scrollToComponent('awards')}
+						// onClick={() => scrollToComponent('awards')}
 					>
 						<StarIcon className='w-6 h-6 mr-4 text-red-500 font-bold' />
 						Awards

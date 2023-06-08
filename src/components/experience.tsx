@@ -5,11 +5,11 @@ import AOS from '../images/aos.png';
 const Experience = () => {
 	return (
 		<div className=''>
-			<p className='bg-blue-300 text-white p-4 text-5xl font-thin'>
+			<p className='bg-blue-300 text-white p-4 text-3xl font-thin'>
 				Experience
 			</p>
-			<div className='m-12 flex flex-col justify-center items-center'>
-				<div className='w-11/12 px-5 bg-white rounded-xl mb-8'>
+			<div className='m-8 flex flex-col justify-center items-center'>
+				<div className='w-full px-5 bg-white rounded-xl mb-8'>
 					<div className='flex items-center justify-between'>
 						<div className='flex items-center space-x-12'>
 							<Image
@@ -26,11 +26,8 @@ const Experience = () => {
 					</div>
 					<hr />
 					<div className='my-4'>
-						<p className='text-md font-medium text-gray-500 py-2 italic'>
-							Transforming ICT in Africa
-						</p>
-						<p className='text-xl font-thin py-2'>RESPONSIBILITIES</p>
-						<ul className='list-disc ml-5'>
+						<p className='text-xl font-thin py-3'>RESPONSIBILITIES:</p>
+						<ul className='text-lg font-thin list-disc ml-5'>
 							<li>
 								Test Case Creation and Execution: Develop and execute
 								comprehensive test cases to verify software functionality,
@@ -61,8 +58,8 @@ const Experience = () => {
 						</ul>
 					</div>
 				</div>
-				<div className='w-11/12 px-5 bg-white rounded-xl mb-8'>
-					<div className='flex items-center justify-between py-6'>
+				<div className='w-full px-5 bg-white rounded-xl mb-8'>
+					<div className='flex items-center justify-between'>
 						<div className='flex items-center space-x-12'>
 							<Image
 								src={AOS}
@@ -76,11 +73,8 @@ const Experience = () => {
 					</div>
 					<hr />
 					<div className='my-4'>
-						<p className='text-md font-medium text-gray-500 py-2 italic'>
-							Transforming ICT in Africa
-						</p>
-						<p className='text-xl font-thin py-2'>RESPONSIBILITIES</p>
-						<ul className='list-disc ml-5'>
+						<p className='text-xl font-thin py-3'>RESPONSIBILITIES:</p>
+						<ul className='text-lg font-thin list-disc ml-5'>
 							<li>
 								Identified and reported software defects: I actively found
 								issues in the software and promptly reported them to the
