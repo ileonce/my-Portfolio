@@ -22,10 +22,10 @@ const TextRotator = () => {
 
 	useEffect(() => {
 		const intervalId = setInterval(() => {
-			setTextIndex((textIndex + 1) % texts.length);
+			setTextIndex((prevTextIndex) => (prevTextIndex + 1) % texts.length);
 		}, 3000);
 		return () => clearInterval(intervalId);
-	}, [textIndex, texts.length]);
+	}, []);
 
 	return <div>{texts[textIndex].paragraph}</div>;
 };
