@@ -2,18 +2,18 @@ import React, { useState, useEffect } from 'react';
 
 const texts = [
 	{
-		paragraphy: `Debugging is like being the detective in a crime movie where you're
+		paragraph: `Debugging is like being the detective in a crime movie where you are
 		also the murderer.  "-- Filipe Fortes"`,
 	},
 	{
-		paragraphy: `The best error message is the one that never shows up.
+		paragraph: `The best error message is the one that never shows up.
 		"-- Thomas Fuchs"`,
 	},
 	{
-		paragraphy: `"Why do programmers prefer dark mode? Because the light attracts bugs."`,
+		paragraph: `"Why do programmers prefer dark mode? Because the light attracts bugs."`,
 	},
 	{
-		paragraphy: `"Why do programmers prefer coffee? Because it helps them Java!"`,
+		paragraph: `"Why do programmers prefer coffee? Because it helps them Java!"`,
 	},
 ];
 
@@ -27,7 +27,7 @@ const TextRotator = () => {
 		return () => clearInterval(intervalId);
 	}, [textIndex, texts.length]);
 
-	return <div>{texts[textIndex].paragraphy}</div>;
+	return <div>{texts[textIndex].paragraph}</div>;
 };
 
 export default TextRotator;
