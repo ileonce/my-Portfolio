@@ -12,11 +12,11 @@ const About = () => {
 				className='w-full'
 			/>
 			<div className='absolute top-96'>
-				<div className='text-white h-52 p-6 text-5xl font-serif bg-black opacity-40 m-4'>
+				<div className='hidden md:block text-white h-52 p-6 text-5xl font-serif bg-black opacity-40 m-4'>
 					<TextRotator />
 				</div>
 			</div>
-			<div className='bg-blue-300 text-white p-4 text-3xl font-thin'>
+			<div className='bg-blue-300 text-white p-4 text-3xl font-thin sm:text-xl md:text-3xl lg:text-4xl xl:text-5xl 2xl:text-6xl'>
 				<p>ABOUT LEONCE IRANYUMVA</p>
 			</div>
 			<div className='bg-white p-6 m-8 rounded-lg'>

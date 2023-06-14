@@ -1,3 +1,4 @@
+import { Bars3Icon } from '@heroicons/react/24/outline';
 import {
 	AcademicCapIcon,
 	ArrowTrendingUpIcon,
@@ -9,6 +10,7 @@ import {
 	UserIcon,
 } from '@heroicons/react/24/solid';
 import { scroller } from 'react-scroll';
+
 const SideBar = () => {
 	const scrollToComponent = (name: string) => {
 		scroller.scrollTo(name, {
@@ -24,14 +26,14 @@ const SideBar = () => {
 	};
 	return (
 		<div className='h-screen w-1/6 fixed'>
-			<div className='bg-gray-50 p-4'>
+			<div className='bg-gray-50 p-4 relative'>
 				<p className='text-3xl font-thin text-blue-800 px-4'>
 					Leonce Iranyumva
 				</p>
 				<p className='text-sm px-4 py-2 text-gray-500'>Software Engineer</p>
 			</div>
 			<hr />
-			<ul className='text-gray-500 bg-white h-screen'>
+			<ul className='text-gray-500 bg-white h-screen hidden sm:block'>
 				<div className='cursor-pointer hover:bg-gray-50 hover:border-blue-500 border-l-4 border-transparent transition duration-300'>
 					<li
 						className='mx-4 flex items-center space-x-2 py-3'
