@@ -26,11 +26,11 @@ const SideBar = () => {
 	};
 	return (
 		<div className='h-screen w-1/6 fixed'>
-			<div className='bg-gray-50 p-4 relative'>
-				<p className='text-3xl font-thin text-blue-800 px-4'>
+			<div className='px-1 lg:bg-gray-50 relative'>
+				<p className='text-3xl font-thin text-blue-800 px-5 pt-4'>
 					Leonce Iranyumva
 				</p>
-				<p className='text-sm px-4 py-2 text-gray-500'>Software Engineer</p>
+				<p className='text-sm px-5 py-4 text-gray-500'>Software Engineer</p>
 			</div>
 			<hr />
 			<ul className='text-gray-500 bg-white h-screen hidden sm:block'>

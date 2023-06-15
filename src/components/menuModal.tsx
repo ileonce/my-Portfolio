@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import { useRef } from 'react';
-import { scroller } from 'react-scroll';
+import { Link, animateScroll as scroll } from 'react-scroll';
 import {
 	AcademicCapIcon,
 	ArrowTrendingUpIcon,
@@ -38,13 +38,6 @@ const MenuModal = ({
 		};
 	}, [onClose]);
 
-	const scrollToComponent = (name: string) => {
-		scroller.scrollTo(name, {
-			duration: 800,
-			delay: 0,
-			smooth: 'easeInOutQuart',
-		});
-	};
 	const handleCVClick = () => {
 		window.location.href =
 			'https://drive.google.com/file/d/1O-noZcpLQ1gO8eP3goWOCiNT-S2cKMV5/view?usp=drive_link';
@@ -60,69 +53,104 @@ const MenuModal = ({
 				className='w-44 flex flex-col'
 			>
 				<div>
-					<ul className='text-gray-500 bg-white h-screen hidden sm:block'>
+					<ul className='text-gray-500 bg-white h-screen lg:hidden'>
 						<div className='cursor-pointer hover:bg-gray-50 hover:border-blue-500 border-l-4 border-transparent transition duration-300'>
-							<li
+							<Link
+								to='about'
+								spy={true}
+								smooth='easeInOutQuart'
+								duration={800}
+								offset={-70}
+								onClick={onClose}
 								className='mx-4 flex items-center space-x-2 py-3'
-								onClick={() => scrollToComponent('about')}
 							>
 								<UserIcon className='w-6 h-6 mr-4 text-blue-500 font-bold' />
 								About
-							</li>
+							</Link>
 						</div>
-						<div className='cursor-pointer hover:bg-gray-50 hover:border-teal-400 border-l-4 border-transparent transition duration-300 md:pt-8'>
-							<li
+						<div className='cursor-pointer hover:bg-gray-50 hover:border-teal-400 border-l-4 border-transparent transition duration-300'>
+							<Link
+								to='experience'
+								spy={true}
+								smooth='easeInOutQuart'
+								duration={800}
+								offset={-70}
+								onClick={onClose}
 								className='mx-4 flex items-center space-x-2 py-3'
-								onClick={() => scrollToComponent('experience')}
 							>
 								<ArrowTrendingUpIcon className='w-6 h-6 mr-4 text-teal-400 font-bold' />
 								Experience
-							</li>
+							</Link>
 						</div>
 						<div className='cursor-pointer hover:bg-gray-50 hover:border-blue-500  border-l-4 border-transparent transition duration-300'>
-							<li
+							<Link
+								to='projects'
+								spy={true}
+								smooth='easeInOutQuart'
+								duration={800}
+								offset={-70}
+								onClick={onClose}
 								className='mx-4 flex items-center space-x-2 py-3'
-								// onClick={() => scrollToComponent('projects')}
 							>
 								<TableCellsIcon className='w-6 h-6 mr-4 text-blue-500 font-bold' />
 								Projects
-							</li>
+							</Link>
 						</div>
 						<div className='cursor-pointer hover:bg-gray-50 hover:border-fuchsia-900  border-l-4 border-transparent transition duration-300'>
-							<li
+							<Link
+								to='skills'
+								spy={true}
+								smooth='easeInOutQuart'
+								duration={800}
+								offset={-70}
+								onClick={onClose}
 								className='mx-4 flex items-center space-x-2 py-3'
-								onClick={() => scrollToComponent('skills')}
 							>
 								<ChartBarIcon className='w-6 h-6 mr-4 text-fuchsia-900 font-bold' />
 								Skills
-							</li>
+							</Link>
 						</div>
 						<div className='cursor-pointer hover:bg-gray-50 hover:border-red-500  border-l-4 border-transparent transition duration-300'>
-							<li
+							<Link
+								to='awards'
+								spy={true}
+								smooth='easeInOutQuart'
+								duration={800}
+								offset={-70}
+								onClick={onClose}
 								className='mx-4 flex items-center space-x-2 py-3'
-								// onClick={() => scrollToComponent('awards')}
 							>
 								<StarIcon className='w-6 h-6 mr-4 text-red-500 font-bold' />
 								Awards
-							</li>
+							</Link>
 						</div>
 						<div className='cursor-pointer hover:bg-gray-50 hover:border-orange-500  border-l-4 border-transparent transition duration-300'>
-							<li
+							<Link
+								to='education'
+								spy={true}
+								smooth='easeInOutQuart'
+								duration={800}
+								offset={-70}
+								onClick={onClose}
 								className='mx-4 flex items-center space-x-2 py-3'
-								onClick={() => scrollToComponent('education')}
 							>
 								<AcademicCapIcon className='w-6 h-6 mr-4 text-orange-500 font-bold' />
 								Education
-							</li>
+							</Link>
 						</div>
 						<div className='cursor-pointer hover:bg-gray-50 hover:border-amber-900  border-l-4 border-transparent transition duration-300'>
-							<li
+							<Link
+								to='contacts'
+								spy={true}
+								smooth='easeInOutQuart'
+								duration={800}
+								offset={-70}
+								onClick={onClose}
 								className='mx-4 flex items-center space-x-2 py-3'
-								onClick={() => scrollToComponent('contacts')}
 							>
 								<EnvelopeIcon className='w-6 h-6 mr-4 text-amber-900 font-bold' />
 								Contact
-							</li>
+							</Link>
 						</div>
 						<div className='cursor-pointer hover:bg-gray-50 hover:border-black  border-l-4 border-transparent transition duration-300'>
 							<li

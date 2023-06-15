@@ -11,16 +11,16 @@ const About = () => {
 				alt='home-page'
 				className='w-full'
 			/>
-			<div className='absolute top-96'>
-				<div className='hidden md:block text-white h-52 p-6 text-5xl font-serif bg-black opacity-40 m-4'>
+			<div className='absolute top-72 lg:top-80 xl:top-96'>
+				<div className=' hidden md:block text-white h-40 p-6 text-4xl font-serif bg-black opacity-40 m-4 lg:text-5xl lg:h-52'>
 					<TextRotator />
 				</div>
 			</div>
-			<div className='bg-blue-300 text-white p-4 text-3xl font-thin sm:text-xl md:text-3xl lg:text-4xl xl:text-5xl 2xl:text-6xl'>
+			<div className='bg-blue-300 text-white p-4 text-3xl font-thin'>
 				<p>ABOUT LEONCE IRANYUMVA</p>
 			</div>
-			<div className='bg-white p-6 m-8 rounded-lg'>
-				<span className='text-2xl text-amber-800'>
+			<div className='bg-white p-6 mx-6 rounded-lg'>
+				<span className='text-lg font-bold md:text-2xl text-amber-800'>
 					| Software Engineer | QA Engineer | Designer
 				</span>
 				<p className='text-lg font-thin py-4'>

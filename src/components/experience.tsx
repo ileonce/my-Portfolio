@@ -10,7 +10,7 @@ const Experience = () => {
 			</p>
 			<div className='m-8 flex flex-col justify-center items-center'>
 				<div className='w-full px-5 bg-white rounded-xl mb-8'>
-					<div className='flex items-center justify-between'>
+					<div className='grid grid-cols-1 md:flex items-center justify-between'>
 						<div className='flex items-center space-x-12'>
 							<Image
 								src={AOS}
@@ -59,7 +59,7 @@ const Experience = () => {
 					</div>
 				</div>
 				<div className='w-full px-5 bg-white rounded-xl mb-8'>
-					<div className='flex items-center justify-between'>
+					<div className='grid grid-cols-1 md:flex items-center justify-between'>
 						<div className='flex items-center space-x-12'>
 							<Image
 								src={AOS}

@@ -18,10 +18,10 @@ export default function Home() {
 
 	return (
 		<>
-			<div className='fixed top-0 left-0 bg-white z-50 w-full flex items-center p-3 md:hidden'>
-				<div className='w-full flex justify-center'>
+			<div className='fixed top-0 left-0 bg-white z-50 w-full flex items-center p-3 border-b-2 border-blue-400 lg:hidden'>
+				<div className='w-full flex justify-center '>
 					<Bars3Icon
-						className='w-10 h-10 cursor-pointer ml-4 absolute top-2 left-0'
+						className='w-10 h-10 cursor-pointer ml-4 absolute top-2 left-0 text-blue-400'
 						onClick={() => setIsOpen(true)}
 					/>
 					<div className='text-center'>
@@ -31,10 +31,10 @@ export default function Home() {
 				</div>
 			</div>
 			<div className='flex'>
-				<div className='w-1/6  hidden md:block'>
+				<div className='w-1/6  hidden lg:block'>
 					<SideBar />
 				</div>
-				<div className='w-6/6 mt-16 overflow-y-auto md:w-5/6'>
+				<div className='w-6/6 mt-16 overflow-y-auto lg:w-5/6'>
 					<Element name='about'>
 						<About />
 					</Element>
