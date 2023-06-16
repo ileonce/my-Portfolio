@@ -18,20 +18,20 @@ const Skills = () => {
 			<div className='bg-blue-300 text-white p-4 text-3xl font-thin'>
 				<p>SKILLS</p>
 			</div>
-			<div className='mx-1 md:bg-white m-8 px-8 py-5 rounded-lg'>
+			<div className='mx-6 md:mx-12 my-8 bg-white px-8 py-5 rounded-lg'>
 				<p className='pb-4 text-3xl text-orange-900 font-thin'>FRONT-END</p>
 				<hr />
-				<div className='flex flex-wrap md:grid grid-cols-6 mt-6'>
-					<div className='flex flex-col items-center w-32'>
+				<div className='flex flex-wrap justify-center md:justify-between mt-6'>
+					<div className='flex flex-col items-center w-32 mb-6'>
 						<Image
 							src={HTML5}
 							alt='home-page'
 							height={100}
 							width={100}
 						/>
-						<h2 className='font-bold'>HTML5</h2>
+						<h2 className='mt-1 font-medium text-sm'>HTML5</h2>
 					</div>
-					<div className='flex flex-col items-center w-32'>
+					<div className='flex flex-col items-center w-32 mb-6'>
 						<Image
 							src={CSS3}
 							alt='home-page'
@@ -40,7 +40,7 @@ const Skills = () => {
 						/>
 						<h2 className='mt-2 font-medium text-sm'>CSS3</h2>
 					</div>
-					<div className='flex flex-col items-center w-32'>
+					<div className='flex flex-col items-center w-32 mb-6'>
 						<Image
 							src={JAVASCRIPT}
 							alt='home-page'
@@ -49,7 +49,7 @@ const Skills = () => {
 						/>
 						<h2 className='mt-2 font-medium text-sm'>Javascript</h2>
 					</div>
-					<div className='flex flex-col items-center w-32'>
+					<div className='flex flex-col items-center w-32 mb-6'>
 						<Image
 							src={NEXTJS}
 							alt='home-page'
@@ -58,7 +58,7 @@ const Skills = () => {
 						/>
 						<h2 className='mt-2 font-medium text-sm'>Next.JS</h2>
 					</div>
-					<div className='flex flex-col items-center w-32'>
+					<div className='flex flex-col items-center w-32 mb-6'>
 						<Image
 							src={BOOTSTRAP}
 							alt='home-page'
@@ -67,7 +67,7 @@ const Skills = () => {
 						/>
 						<h2 className='mt-2 font-medium text-sm'>Bootstrap</h2>
 					</div>
-					<div className='flex flex-col items-center w-32'>
+					<div className='flex flex-col items-center w-32 mb-6'>
 						<Image
 							src={REACT}
 							alt='home-page'
@@ -78,11 +78,11 @@ const Skills = () => {
 					</div>
 				</div>
 			</div>
-			<div className='mx-1 md:bg-white m-8 px-8 py-3 rounded-lg'>
+			<div className='mx-6 md:mx-12 my-8 bg-white pb-3 px-8 mt-8 rounded-lg'>
 				<p className='py-4 text-3xl text-orange-900 font-thin'>BACK-END</p>
 				<hr />
-				<div className='flex flex-wrap space-x-6 md:grid grid-cols-6 mt-6'>
-					<div className='flex flex-col items-center w-32'>
+				<div className='flex flex-wrap justify-center mt-6'>
+					<div className='flex flex-col items-center w-32 mb-6'>
 						<Image
 							src={NODEJS}
 							alt='home-page'
@@ -91,7 +91,7 @@ const Skills = () => {
 						/>
 						<h2 className='mt-2 font-medium text-sm'>Node.JS</h2>
 					</div>
-					<div className='flex flex-col items-center w-32'>
+					<div className='flex flex-col items-center w-32 mb-6'>
 						<Image
 							src={MYSQL}
 							alt='home-page'
@@ -103,13 +103,13 @@ const Skills = () => {
 					</div>
 				</div>
 			</div>
-			<div className='mx-1 md:bg-white m-8 px-8 py-4 rounded-lg'>
+			<div className='mx-6 md:mx-12 my-8 bg-white px-8 pb-3 mt-8 rounded-lg'>
 				<p className='py-4 text-3xl text-orange-900 font-thin'>
 					DEVELOPMENT TOOLS
 				</p>
 				<hr />
-				<div className='grid grid-cols-6 mt-6'>
-					<div className='flex flex-col items-center w-32'>
+				<div className='flex flex-wrap justify-center mt-6'>
+					<div className='flex flex-col items-center w-32 mb-6'>
 						<Image
 							src={VSCODE}
 							alt='home-page'
@@ -120,13 +120,13 @@ const Skills = () => {
 					</div>
 				</div>
 			</div>
-			<div className='mx-1 md:bg-white m-8 px-8 py-4 rounded-lg'>
+			<div className='mx-6 md:mx-12 my-8 bg-white mt-8 px-8  pb-3 rounded-lg'>
 				<p className='py-4 text-3xl text-orange-900 font-thin'>
 					GRAPHIC DESIGN
 				</p>
 				<hr />
-				<div className='flex flex-wrap space-x-10 md:grid grid-cols-6 mt-6'>
-					<div className='flex flex-col items-center w-32'>
+				<div className='flex flex-wrap justify-center mt-6'>
+					<div className='flex flex-col items-center w-32 mb-6'>
 						<Image
 							src={PHOTOSHOP}
 							alt='home-page'
@@ -135,7 +135,7 @@ const Skills = () => {
 						/>
 						<h2 className='mt-2 font-medium text-sm'>Photoshop</h2>
 					</div>
-					<div className='flex flex-col items-center w-32'>
+					<div className='flex flex-col items-center w-32 mb-6'>
 						<Image
 							src={ADOBE}
 							alt='home-page'

@@ -8,8 +8,8 @@ function Education() {
 			<div className='bg-blue-300 text-white p-4 text-3xl font-thin'>
 				<p>EDUCATION</p>
 			</div>
-			<div className='md:grid grid-cols-2 m-8'>
-				<div className='md:w-5/6 p-6 bg-white rounded-lg border-4 border-gray-100'>
+			<div className='flex flex-wrap justify-between mx-6 md:mx-12 my-8'>
+				<div className='p-6 bg-white rounded-lg border-4 border-gray-100'>
 					<div className='flex items-center space-x-3'>
 						<Image
 							src={Parul}
@@ -27,7 +27,7 @@ function Education() {
 						<li>CGPA: 7.44</li>
 					</ul>
 				</div>
-				<div className='mt-4 w-6/6 md:w-5/6 p-6 bg-white rounded-lg border-4 border-gray-100'>
+				<div className='p-6 bg-white rounded-lg border-4 border-gray-100'>
 					<p className='text-2xl pb-4'>Group Scolaire Des Parents</p>
 					<ul className='text-gray-500 mt-2'>
 						<li>Feb 2014 - Nov 2016</li>

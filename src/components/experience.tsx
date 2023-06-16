@@ -6,9 +6,9 @@ const Experience = () => {
 	return (
 		<div className=''>
 			<p className='bg-blue-300 text-white p-4 text-3xl font-thin'>
-				Experience
+				EXPERIENCE
 			</p>
-			<div className='m-8 flex flex-col justify-center items-center'>
+			<div className='mx-6  md:mx-12 my-8 flex flex-col justify-center items-center'>
 				<div className='w-full px-5 bg-white rounded-xl mb-8'>
 					<div className='grid grid-cols-1 md:flex items-center justify-between'>
 						<div className='flex items-center space-x-12'>

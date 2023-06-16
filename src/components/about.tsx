@@ -2,10 +2,11 @@ import React from 'react';
 import Image from 'next/image';
 import PC1 from '../images/pc5.jpg';
 import TextRotator from './textRotate';
+import BACKGROUND from '../images/bg.png';
 
 const About = () => {
 	return (
-		<div className='relative'>
+		<section className='relative '>
 			<Image
 				src={PC1}
 				alt='home-page'
@@ -19,7 +20,7 @@ const About = () => {
 			<div className='bg-blue-300 text-white p-4 text-3xl font-thin'>
 				<p>ABOUT LEONCE IRANYUMVA</p>
 			</div>
-			<div className='bg-white p-6 mx-6 rounded-lg'>
+			<div className='mx-1 md:mx-6  p-6 rounded-lg'>
 				<span className='text-lg font-bold md:text-2xl text-amber-800'>
 					| Software Engineer | QA Engineer | Designer
 				</span>
@@ -56,7 +57,7 @@ const About = () => {
 					Is dedicated to pursuing a UX/UI design.
 				</p>
 			</div>
-		</div>
+		</section>
 	);
 };
 
