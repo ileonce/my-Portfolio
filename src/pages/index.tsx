@@ -8,6 +8,7 @@ import { Element } from 'react-scroll';
 import { Bars3Icon } from '@heroicons/react/24/outline';
 import MenuModal from '@/components/menuModal';
 import { useState } from 'react';
+import BACKGROUND from '../images/bg.png';
 
 export default function Home() {
 	const [isOpen, setIsOpen] = useState<boolean>(false);
@@ -17,8 +18,11 @@ export default function Home() {
 	};
 
 	return (
-		<>
-			<div className='fixed top-0 left-0 bg-white z-50 w-full flex items-center p-3 border-b-2 border-blue-400 lg:hidden'>
+		<div
+			className='bg-cover bg-center h-screen'
+			style={{ backgroundImage: `url(${BACKGROUND})` }}
+		>
+			<header className='fixed top-0 left-0 bg-white z-50 w-full flex items-center p-3 border-b-2 border-blue-400 lg:hidden'>
 				<div className='w-full flex justify-center '>
 					<Bars3Icon
 						className='w-10 h-10 cursor-pointer ml-4 absolute top-2 left-0 text-blue-400'
@@ -29,12 +33,12 @@ export default function Home() {
 						<p className='text-sm text-gray-500 '>Software Engineer</p>
 					</div>
 				</div>
-			</div>
-			<div className='flex'>
+			</header>
+			<main className='flex'>
 				<div className='w-1/6  hidden lg:block'>
 					<SideBar />
 				</div>
-				<div className='w-6/6 mt-16 overflow-y-auto lg:w-5/6'>
+				<div className='w-6/6 mt-16 lg:mt-0 overflow-y-auto lg:w-5/6'>
 					<Element name='about'>
 						<About />
 					</Element>
@@ -53,11 +57,11 @@ export default function Home() {
 						<Contacts />
 					</Element>
 				</div>
-			</div>
+			</main>
 			<MenuModal
 				isVisible={isOpen}
 				onClose={closeModal}
 			/>
-		</>
+		</div>
 	);
 }
