@@ -81,7 +81,7 @@ const Skills = () => {
 			<div className='mx-6 md:mx-12 my-8 bg-white pb-3 px-8 mt-8 rounded-lg'>
 				<p className='py-4 text-3xl text-orange-900 font-thin'>BACK-END</p>
 				<hr />
-				<div className='flex flex-wrap justify-center mt-6'>
+				<div className='flex flex-wrap mt-6'>
 					<div className='flex flex-col items-center w-32 mb-6'>
 						<Image
 							src={NODEJS}
@@ -108,7 +108,7 @@ const Skills = () => {
 					DEVELOPMENT TOOLS
 				</p>
 				<hr />
-				<div className='flex flex-wrap justify-center mt-6'>
+				<div className='flex flex-wrap mt-6'>
 					<div className='flex flex-col items-center w-32 mb-6'>
 						<Image
 							src={VSCODE}
@@ -125,7 +125,7 @@ const Skills = () => {
 					GRAPHIC DESIGN
 				</p>
 				<hr />
-				<div className='flex flex-wrap justify-center mt-6'>
+				<div className='flex flex-wrap  mt-6'>
 					<div className='flex flex-col items-center w-32 mb-6'>
 						<Image
 							src={PHOTOSHOP}
