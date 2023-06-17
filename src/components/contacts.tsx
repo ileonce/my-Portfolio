@@ -13,7 +13,7 @@ function Contacts() {
 			<div className='bg-blue-300 text-white p-4 text-3xl font-thin'>
 				<p>CONTACTS</p>
 			</div>
-			<ul className='mx-3 md:mx-12 my-8'>
+			<ul className='mx-4 sm:mx-12 my-8'>
 				<li className='flex items-center pb-2'>
 					<div className='m-2'>
 						<Image

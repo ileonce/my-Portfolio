@@ -18,14 +18,7 @@ export default function Home() {
 	};
 
 	return (
-<<<<<<< HEAD
 		<div>
-=======
-		<div
-			className='bg-cover bg-center h-screen'
-			style={{ backgroundImage: `url(${BACKGROUND})` }}
-		>
->>>>>>> 8ad630fa89bc73ae63a61f4515ab74f25d4387a1
 			<header className='fixed top-0 left-0 bg-white z-50 w-full flex items-center p-3 border-b-2 border-blue-400 lg:hidden'>
 				<div className='w-full flex justify-center '>
 					<Bars3Icon
